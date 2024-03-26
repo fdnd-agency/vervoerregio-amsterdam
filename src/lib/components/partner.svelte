@@ -153,7 +153,7 @@
 			<button on:click={closeDelete}>Nee</button>
 		</div>
 	</form>
-</div>
+</div>	
 
 <style>
 	li {
@@ -177,6 +177,12 @@
 
 	li a:hover {
 		border: solid 1px var(--c-orange);
+	}
+
+	@media (inverted-colors: inverted) {
+		li a {
+			border: solid 1px white;
+		}
 	}
 
 	h2 {
